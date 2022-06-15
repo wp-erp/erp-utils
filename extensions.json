@@ -1,7 +1,7 @@
 {
     "accounting\/inventory": {
         "name": "Inventory",
-        "version": "1.3.7"
+        "version": "1.3.8"
     },
     "accounting\/payment-gateway": {
         "name": "Payment Gateway",
@@ -9,7 +9,7 @@
     },
     "accounting\/woocommerce": {
         "name": "WooCommerce",
-        "version": "1.4.1"
+        "version": "1.4.2"
     },
     "crm\/deals": {
         "name": "Deals",
@@ -21,7 +21,7 @@
     },
     "hrm\/attendance": {
         "name": "Attendance",
-        "version": "2.1.4"
+        "version": "2.1.5"
     },
     "hrm\/custom-field-builder": {
         "name": "Custom Field Builder",
@@ -41,11 +41,11 @@
     },
     "hrm\/recruitment": {
         "name": "Recruitment",
-        "version": "1.5.2"
+        "version": "1.5.3"
     },
     "hrm\/reimbursement": {
         "name": "Reimbursement",
-        "version": "1.2.8"
+        "version": "1.2.9"
     },
     "hrm\/sms-notification": {
         "name": "SMS Notification",
@@ -53,7 +53,7 @@
     },
     "hrm\/workflow": {
         "name": "Workflow",
-        "version": "1.2.2"
+        "version": "1.2.3"
     },
     "pro\/advanced-leave": {
         "name": "Advanced Leave Management",
@@ -69,7 +69,7 @@
     },
     "pro\/help-scout": {
         "name": "HelpScout Integration",
-        "version": "1.1.3"
+        "version": "1.1.4"
     },
     "pro\/hr-frontend": {
         "name": "HR Frontend",
@@ -81,7 +81,7 @@
     },
     "pro\/mailchimp": {
         "name": "Mailchimp Contacts Sync",
-        "version": "1.1.2"
+        "version": "1.2.0"
     },
     "pro\/salesforce": {
         "name": "Salesforce Contacts Sync",
