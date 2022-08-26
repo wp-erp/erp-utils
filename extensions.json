@@ -1,7 +1,7 @@
 {
     "accounting\/inventory": {
         "name": "Inventory",
-        "version": "1.3.8"
+        "version": "1.3.9"
     },
     "accounting\/payment-gateway": {
         "name": "Payment Gateway",
@@ -17,7 +17,7 @@
     },
     "hrm\/asset-management": {
         "name": "Asset Manager",
-        "version": "1.1.7"
+        "version": "1.1.8"
     },
     "hrm\/attendance": {
         "name": "Attendance",
@@ -37,11 +37,11 @@
     },
     "hrm\/payroll": {
         "name": "Payroll",
-        "version": "2.0.3"
+        "version": "2.0.4"
     },
     "hrm\/recruitment": {
         "name": "Recruitment",
-        "version": "1.5.3"
+        "version": "1.5.4"
     },
     "hrm\/reimbursement": {
         "name": "Reimbursement",
