@@ -1,10 +1,10 @@
 {
-  "key":"wedevs-summer2022",
-  "start_date":"2022-07-07 08:00:01 EST",
-  "end_date":"2022-07-13 22:59:59 EST",
-  "title":"Beat the Heat with WP ERP this Summer.",
+  "key":"wedevs-halloween2022",
+  "start_date":"2022-10-27 08:00:01 EST",
+  "end_date":"2022-11-03 21:59:59 EST",
+  "title":"Deals too Good to turn down",
   "description":"",
-  "content":"Enjoy Up To <strong>35% OFF</strong>",
-  "action_url":"https://wperp.com/pricing/?nocache&utm_medium=text&utm_source=wpdashboard-summer-2022",
+  "content":"Enjoy Up To <strong>35% OFF</strong> on <strong>WP ERP Pro</strong> this Halloween!",
+  "action_url":"https://wperp.com/pricing/?nocache",
   "action_title":"Get Now"
 }
