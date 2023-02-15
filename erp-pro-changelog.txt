@@ -5,7 +5,7 @@ Tags: business manager, erp, accounting, crm, hr, project manager, small busines
 Requires at least: 4.4
 Tested up to: 6.0.2
 Requires PHP: 5.6
-Stable tag: 1.2.10
+Stable tag: 1.3.1
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -141,6 +141,17 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 
 WP ERP Pro
 
+= v1.3.1 -> February 15, 2023 =
+--------------------------
+
+- [Fix] - Job creation function not working in recruitment module.
+
+= v1.3.0 -> January 11, 2023 =
+--------------------------
+
+- [Update] - Update project to composer version 2.
+- [Enhancement] - Bug fix and reliability improvements across core and all premium add-ons.
+
 = v1.2.10 -> October 13, 2022 =
 --------------------------
 
@@ -204,11 +215,11 @@ WP ERP Pro
 **Extension - Attendance**
 - [fix] Some issues in the backend
 
-= v1.2.7 -> May 27, 2022 =
+= v1.2.7 -> May 24, 2022 =
 --------------------------
 
 **ERP Pro Core**
-- [fix] CRM Life stages were not working properly when slug was entered in language other than English
+- [fix] CRM Life stages were not working properly when slug was entered in non-English fonts
 
 **Extension - SMS Notification **
 - [fix] Some compatibility issues with the core
@@ -603,129 +614,6 @@ WP ERP Pro
 **Extension - Zendesk**
 - [update] Updated settings tab to move it inside Integration tab
 
-**Extension - Gravity Forms Integration**
-- [update] Updated integration settings as contact forms settings tab has been moved inside CRM tab
-
-**Extension - Payment Gateway**
-- [update] Updated settings tab to move it inside Accounting tab
-
-**Extension - Inventory**
-- [update] Updated menu arrangement to move it inside Products menu
-
-**Extension - Asset Manager**
-- [update] Updated menu to rename it to ‘Assets’
-
-
-= v1.0.5 -> December 31, 2020 =
---------------------------
-
-**ERP Pro Core**
-- [update] Updated audit logger to log all possible actions
-- [update] Updated license page design
-- [fix] Fixed CRM tasks not loading issue for database with binary charset
-
-**Extension- Asset Management**
-- [new] Added audit logger to log all possible actions
-
-**Extension- Attendance**
-- [new] Added audit logger to log all possible actions
-- [new] Added action to remove employee from assigned shift and date shift when the employee is not active
-- [fix] Fixed mobile edit issue
-
-**Extension- HR Training**
-- [new] Added audit logger to log all possible actions
-
-**Extension- Recruitment**
-- [new] Added audit logger to log all possible actions
-- [new] Added experience area and type options while adding and updating opening
-- [update] Updated job opening frontend to show experience area and type
-
-**Extension- Reimbursement**
-- [new] Added audit logger to log all possible actions
-
-**Extension- Deals**
-- [new] Added last update notice for each deal so that user can identify when a deal was last updated
-- [update] Updated deals history tracker to show deal value in each stage
-
-**Extension- Document Manager**
-- [update] Updated audit logger to log all possible actions
-
-= v1.0.4 -> November 30, 2020 =
---------------------------
-
-**ERP Pro Core**
-- [update] Updated showing all the dates in the frontend according to the ERP date format setting
-
-**Extension- Inventory**
-- [update] Updated showing all the dates in the frontend according to the ERP date format setting
-
-**Extension- Attendance**
-- [new] Added shift holidays to hr calendar
-- [new] Added shift based day off count for leave request
-- [fix] Fixed shift based weekend calendar color
-- [fix] Fixed attendance dashboard PI chart not loading issue for hr manager
-- [update] Updated showing all the dates in the frontend according to the ERP date format setting
-
-**Extension- Recruitment**
-- [update] Updated showing all the dates in the frontend according to the ERP date format setting
-
-**Extension- Reimbursement**
-- [update] Updated showing all the dates in the frontend according to the ERP date format setting
-
-**Extension- Custom Field Builder**
-- [update] Updated synchronization between custom form fields of vendors while importing or exporting CSV data
-
-= v1.0.3 -> November 12, 2020 =
---------------------------
-
-**ERP Pro Core**
-- [new] Added new design at license page
-
-**Extension- Payroll**
-- [new] Added Bulk Edit for setting Employe pay item
-- [update] Updated pay-run filtering
-- [update] Updated pay calendar with basic payment and filtering support lowercase for employee name
-- [fix] Fixed pay run system and calendar create system and also UI fix
-- [fix] Fixed dashboard 'Last 5 Pay-run Record
-- [fix] Fixed payslip report for Individual Employe and from Employe Dashboard
-- [fix] Fixed pay-run details report and  CSV Export
-- [fix] Fixed settings UI and remove Amount type field from pay item
-
-= v1.0.2 -> October 29, 2020 =
---------------------------
-**ERP PRO Core**
-- [fix] fixed composer auto loading issue for some classes
-- [fix] fixed fatal error on dynamic life stage for older version of erp pro
-
-= v1.0.1 -> October 29, 2020 =
---------------------------
-
-**ERP Pro Core**
-- [new] Added Digest email for HR Manager
-- [new] Added customisable CRM life stages to make the life stages dynamic
-- [new] Added CRM task management feature
-- [fix] Fixed issues when activating/deactivating modules
-- [fix] Fixed Zendesk redirect issue in case of api error
-- [fix] Fixed reimbursement update notification issue
-
-**Extension- Attendance**
-- [new] Added functionality to go specific date while editing attendance
-- [new] Added date filter at attendance page
-- [fix] Fixed hr entry status & editing issue
-
-**Extension- Deals**
-- [fix] Fixed role based permission issue CRM Deals at overview page
-- [new] Added number of qualified leads funnel chart in deals overview
-- [new] Added lead generation bar chart in deals overview
-- [new] Added lead response time bar chart in deals overview
-- [new] Added deal lost reason bar chart in deals overview
-- [new] Added top sales person bar chart with export report option in deals overview
-- [new] Added win vs lost deals grouped bar chart in deals overview
-- [new] Added number of follow-up meetings bar chart in deals overview
-
-**Extension - WooCommerce**
-- [new] Added WooCommerce Category and Product Synchronisation
-- [update] Fixed WooCommerce Order Synchronisation issues
 
 = v1.0.0 -> September, 2020 =
 --------------------------
