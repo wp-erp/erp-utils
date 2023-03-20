@@ -1,10 +1,10 @@
 {
-  "key":"wedevs-halloween2022",
-  "start_date":"2022-10-27 08:00:01 EST",
-  "end_date":"2022-11-04 01:59:59 EST",
-  "title":"Deals too Good to turn down",
+  "key":"erp-wedevsbirthday2023",
+  "start_date":"2023-03-16 08:00:01 EST",
+  "end_date":"2023-03-31 07:00:00 EST",
+  "title":"weDevs hits 10, what a feat!",
   "description":"",
-  "content":"Enjoy Up To <strong>35% OFF</strong> On <strong>WP ERP Pro</strong> This Halloween!",
-  "action_url":"https://wperp.com/pricing/?nocache",
+  "content":"Enjoy Up To <strong>40% OFF</strong> On <strong>WP ERP Pro</strong> This Halloween!",
+  "action_url":"https://wperp.com/pricing/?nocache&utm_campaign=weDevs_10_anniversary&utm_medium=wpdashboard&utm_source=banner",
   "action_title":"Get Now"
 }
