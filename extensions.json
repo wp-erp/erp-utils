@@ -1,94 +1,94 @@
 {
     "accounting\/inventory": {
         "name": "Inventory",
-        "version": "1.3.9"
+        "version": "1.4.0"
     },
     "accounting\/payment-gateway": {
         "name": "Payment Gateway",
-        "version": "1.1.4"
+        "version": "1.2.0"
     },
     "accounting\/woocommerce": {
         "name": "WooCommerce",
-        "version": "1.4.2"
+        "version": "1.5.0"
     },
     "crm\/deals": {
         "name": "Deals",
-        "version": "1.1.7"
+        "version": "1.2.0"
     },
     "hrm\/asset-management": {
         "name": "Asset Manager",
-        "version": "1.1.8"
+        "version": "1.2.0"
     },
     "hrm\/attendance": {
         "name": "Attendance",
-        "version": "2.1.5"
+        "version": "2.2.0"
     },
     "hrm\/custom-field-builder": {
         "name": "Custom Field Builder",
-        "version": "1.4.1"
+        "version": "1.5.0"
     },
     "hrm\/document-manager": {
         "name": "Document Manager",
-        "version": "1.3.6"
+        "version": "1.4.0"
     },
     "hrm\/hr-training": {
         "name": "HR Training",
-        "version": "1.1.4"
+        "version": "1.2.0"
     },
     "hrm\/payroll": {
         "name": "Payroll",
-        "version": "2.0.4"
+        "version": "2.1.0"
     },
     "hrm\/recruitment": {
         "name": "Recruitment",
-        "version": "1.5.5"
+        "version": "1.6.0"
     },
     "hrm\/reimbursement": {
         "name": "Reimbursement",
-        "version": "1.2.9"
+        "version": "1.3.0"
     },
     "hrm\/sms-notification": {
         "name": "SMS Notification",
-        "version": "1.1.6"
+        "version": "1.2.0"
     },
     "hrm\/workflow": {
         "name": "Workflow",
-        "version": "1.2.3"
+        "version": "1.3.0"
     },
     "pro\/advanced-leave": {
         "name": "Advanced Leave Management",
-        "version": "1.0.1"
+        "version": "1.1.0"
     },
     "pro\/awesome-support": {
         "name": "Awesome Support",
-        "version": "1.0.2"
+        "version": "1.1.0"
     },
     "pro\/gravity_forms": {
         "name": "Gravity Forms Integration",
-        "version": "1.1.1"
+        "version": "1.2.0"
     },
     "pro\/help-scout": {
         "name": "HelpScout Integration",
-        "version": "1.1.4"
+        "version": "1.2.0"
     },
     "pro\/hr-frontend": {
         "name": "HR Frontend",
-        "version": "2.1.4"
+        "version": "2.2.0"
     },
     "pro\/hubspot": {
         "name": "HubSpot Contacts Sync",
-        "version": "1.1.3"
+        "version": "1.2.0"
     },
     "pro\/mailchimp": {
         "name": "Mailchimp Contacts Sync",
-        "version": "1.2.0"
+        "version": "1.3.0"
     },
     "pro\/salesforce": {
         "name": "Salesforce Contacts Sync",
-        "version": "1.1.4"
+        "version": "1.2.0"
     },
     "pro\/zendesk": {
         "name": "Zendesk",
-        "version": "1.1.4"
+        "version": "1.2.0"
     }
 }
