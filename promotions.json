@@ -1,10 +1,10 @@
 {
-  "key":"erp-eid-al-fitre2023",
-  "start_date":"2023-05-24 08:00:01 EST",
-  "end_date":"2023-06-01 12:01:00 EST",
-  "title":"WordPress Turns 20!",
+  "key":"erp-halloween2023",
+  "start_date":"2023-10-24 08:00:01 EST",
+  "end_date":"2023-11-02 12:01:00 EST",
+  "title":"October Chills, Discount that Thrills",
   "description":"",
   "content":"Get up to <strong>40% OFF</strong> on WP ERP Pro Plan",
-  "action_url":"https://wperp.com/pricing/?nocache&utm_campaign=wordpress_20_anniversary&utm_medium=banner&utm_source=wpdashboard",
-  "action_title":"Celebrate Together"
+  "action_url":"https://wperp.com/pricing/?nocache&utm_campaign=halloween23&utm_medium=banner&utm_source=wpdashboard",
+  "action_title":"Claim Yours"
 }
