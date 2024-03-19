@@ -3,9 +3,9 @@ Contributors: tareq1988, nizamuddinbabu, wedevs
 Donate Link: https://tareq.co/donate
 Tags: business manager, erp, accounting, crm, hr, project manager, small business, SME, contact, contacts, Customer Relationship Management, employee, leave management, hr, human resource management, job, jobs, job listing, lead management, opportunity, schedule, task, lead, holiday, company
 Requires at least: 4.4
-Tested up to: 6.4.2
+Tested up to: 6.4.4
 Requires PHP: 5.6
-Stable tag: 1.3.5
+Stable tag: 1.3.6
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -140,6 +140,16 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 == Changelog ==
 
 WP ERP Pro
+
+= v1.3.6 -> Mar 19, 2024 =
+--------------------------
+- 🪄 Update HubSpot integration to migrate the API key integration to use a private app instead.
+- 🛠️ [FIX] Invoice payment through Stripe.
+- 🛠️ [FIX] Grant access to HR Manager to training module.
+- 🛠️ [FIX] Show tooltip message for payment settings of Acc module.
+- 🛠️ [FIX] Fix/issue 170 Deals - Name Edit > if any apostrophe is added - a Slash gets added.
+- 🛠️ [FIX] Refactor for case insensitive duplicate folders name Admin and admin.
+- 🛠️ [FIX] Fix/issue #216 - Interview date is not inserted in DB for ERP format 'd-m-Y'.
 
 = v1.3.5 -> Dec 14, 2023 =
 --------------------------
