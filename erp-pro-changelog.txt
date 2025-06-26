@@ -5,7 +5,7 @@ Tags: business manager, erp, accounting, crm, hr, project manager, small busines
 Requires at least: 4.4
 Tested up to: 6.4.4
 Requires PHP: 5.6
-Stable tag: 1.3.7
+Stable tag: 1.4.0
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -141,6 +141,41 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 
 WP ERP Pro
 
+= v1.4.0 -> June 25, 2025 =
+
+#### Compatibility & Stability Updates
+- [Improved] PHP 8.2 support across all ERP modules.
+- [Fixed] Multiple deprecated function and dynamic property assignment warnings.
+- [Fixed] Various null reference and array/string conversion issues.
+
+#### HR Module Improvements
+##### Recruitment
+- [Fixed] Interviewer assignment issues and empty recruiter handling.
+- [Improved] Added (interview date, interview time) Placeholders in the Interview popup for better UX.
+- [Improved] Candidate search by first name, last name, or both.
+- [Improved] Enhanced unsupported file error messaging on job application submit.
+- [Improved] Uploaded CV was able to view from media API publicly now secured.
+- [Fixed] Previous Job Update failed.
+
+##### Attendance
+- [Fixed] Broken employee attendance report page view issue.
+- [Fixed] Single employee attendance entry issue.
+- [Fixed] Accurate average check-in time & "divided by zero" issue.
+
+##### HR Training
+- [Fixed] HR Training assignment issue.
+
+##### Payroll
+- [Fixed] Onboarding display bug deprecated emoji style.
+- [Fixed] Payroll calendar employee assignment.
+
+#### Assets
+- [Fixed] Assets allotments to employee issue.
+
+#### CRM & Deals Improvements
+- [Fixed] Broken Add new deals and undefined pipeline issues.
+- [Fixed] Deals Changelog issues.
+- [Improved] notes editor design and preview for better usability
 
 = v1.3.7 -> June 02, 2025 =
 - 🛠️ [FIX] HR frontend dashboard display issue for a better user experience.
