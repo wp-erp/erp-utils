@@ -142,7 +142,7 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 WP ERP Pro
 
 = v1.4.0 -> June 25, 2025 =
-
+--------------------------
 #### Compatibility & Stability Updates
 - [Improved] PHP 8.2 support across all ERP modules.
 - [Fixed] Multiple deprecated function and dynamic property assignment warnings.
@@ -178,6 +178,7 @@ WP ERP Pro
 - [Improved] notes editor design and preview for better usability
 
 = v1.3.7 -> June 02, 2025 =
+--------------------------
 - 🛠️ [FIX] HR frontend dashboard display issue for a better user experience.
 
 = v1.3.6 -> Mar 19, 2024 =
