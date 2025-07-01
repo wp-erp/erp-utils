@@ -21,7 +21,7 @@
     },
     "hrm\/attendance": {
         "name": "Attendance",
-        "version": "2.3.0"
+        "version": "2.3.1"
     },
     "hrm\/custom-field-builder": {
         "name": "Custom Field Builder",
