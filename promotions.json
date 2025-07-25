@@ -1,10 +1,10 @@
 {
-  "key": "WDVSBirthday25",
-  "start_date": "2025-03-18 9:00:00 EST",
-  "end_date": "2025-03-30 12:00:00 EST",
-  "title": "weDevs 12th Anniversary Sale 🎉 ",
+  "key": "SmartSavingWeek",
+  "start_date": "2025-07-24 8:00:00 EST",
+  "end_date": "2025-07-31 12:00:00 EST",
+  "title": "Smart Saving Campaign - Ends on 31st July!  🎉 ",
   "description":"",
-  "content":"Power up your business with WP ERP Pro. Save up to <strong>40%</strong> now!",
-  "action_url":"https://wperp.com/pricing/?utm_source=wpbanner&utm_medium=wpdashboard&utm_campaign=anniversary25_sale&utm_id=weAnniversary25Campaign",
-  "action_title":"Act Before It's Late"
+  "content":"Power up your business with WP ERP Pro. Save up to <strong>35%</strong> now!",
+  "action_url":"https://wperp.com/pricing/?utm_source=wpdashboard&utm_medium=notice&utm_campaign=julysales",
+  "action_title":"Upgrade Now & Save Big"
 }
