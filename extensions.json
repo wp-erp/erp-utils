@@ -13,7 +13,7 @@
     },
     "crm\/deals": {
         "name": "Deals",
-        "version": "1.3.8"
+        "version": "1.3.1"
     },
     "hrm\/asset-management": {
         "name": "Asset Manager",
@@ -29,7 +29,7 @@
     },
     "hrm\/document-manager": {
         "name": "Document Manager",
-        "version": "1.5.5"
+        "version": "1.5.1"
     },
     "hrm\/hr-training": {
         "name": "HR Training",
@@ -41,7 +41,7 @@
     },
     "hrm\/recruitment": {
         "name": "Recruitment",
-        "version": "1.7.6"
+        "version": "1.7.1"
     },
     "hrm\/reimbursement": {
         "name": "Reimbursement",
@@ -92,4 +92,3 @@
         "version": "1.2.1"
     }
 }
-
