@@ -143,9 +143,9 @@ WP ERP Pro
 
 = v1.4.2 -> November 18, 2025 =
 --------------------------
-🐛 [Fixed] Custom field data not showing in edit mode.
-🐛 [Fixed] Job stage duplicate issue.
-🚀 [Added] LTD plan introduced.
+- [Fixed] Custom field data not showing in edit mode.
+- [Fixed] Job stage duplicate issue.
+- [Added] LTD plan introduced.
 
 = v1.4.1 -> June 30, 2025 =
 --------------------------
