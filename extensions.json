@@ -13,7 +13,7 @@
     },
     "crm\/deals": {
         "name": "Deals",
-        "version": "1.4.0"
+        "version": "1.3.1"
     },
     "hrm\/asset-management": {
         "name": "Asset Manager",
@@ -25,11 +25,11 @@
     },
     "hrm\/custom-field-builder": {
         "name": "Custom Field Builder",
-        "version": "1.6.0"
+        "version": "1.6.1"
     },
     "hrm\/document-manager": {
         "name": "Document Manager",
-        "version": "1.5.0"
+        "version": "1.5.1"
     },
     "hrm\/hr-training": {
         "name": "HR Training",
@@ -41,7 +41,7 @@
     },
     "hrm\/recruitment": {
         "name": "Recruitment",
-        "version": "1.7.0"
+        "version": "1.7.1"
     },
     "hrm\/reimbursement": {
         "name": "Reimbursement",
