@@ -1,9 +1,9 @@
 {
-  "key": "BFCM_Earlybird",
-  "start_date": "2025-11-17 9:00:00 EST",
-  "end_date": "2025-11-21 12:00:00 EST",
-  "title": "Black Friday Early Bird Deal → Buy 1 Year, Get 1 More Year FREE!",
-  "content": "If you are planning to buy WP ERP Pro, this is the best time. We are offering 2 years of ERP Pro for the price of 1.",
+  "key": "Black_Friday",
+  "start_date": "2025-11-24 9:00:00 EST",
+  "end_date": "2025-12-1 12:00:00 EST",
+  "title": "Craziest Black Friday Deal: Flat 50% Off WP ERP Pro All Plans",
+  "content": "Get WP ERP Pro with the lowest price of the year. Buy any plan with any number of extensions and users, and you'll get a flat 50% off. Limited time offer.",
   "action_url": "https://wperp.com/pricing/?utm_source=dashboard&utm_medium=banner&utm_campaign=bfcm",
-  "action_title": "Claim Your 2 Year Access Now→"
-}
+  "action_title": "Unlock the Full Power of WP ERP Now→"
+} 
