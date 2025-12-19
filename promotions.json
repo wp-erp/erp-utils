@@ -1,9 +1,9 @@
 {
-  "key": "Black_Friday",
-  "start_date": "2025-11-24 9:00:00 EST",
-  "end_date": "2025-12-1 12:00:00 EST",
-  "title": "Craziest Black Friday Deal: Flat 50% Off WP ERP Pro All Plans",
-  "content": "Get WP ERP Pro with the lowest price of the year. Buy any plan with any number of extensions and users, and you'll get a flat 50% off. Limited time offer.",
-  "action_url": "https://wperp.com/pricing/?utm_source=dashboard&utm_medium=banner&utm_campaign=bfcm",
-  "action_title": "Unlock the Full Power of WP ERP Now→"
+  "key": "Holiday_Sale",
+  "start_date": "2025-12-18 9:00:00 EST",
+  "end_date": "2025-12-31 12:00:00 EST",
+  "title": "Holiday Surprise Sale: Get WP ERP Pro with a Surprising Discount",
+  "content": "After the Successful BFCM period, we have come up with another surprise for you. If you've missed the BFCM deal, this is for you. It's a very limited time offer.",
+  "action_url": "https://wperp.com/pricing/?utm_source=dashboard&utm_medium=banner&utm_campaign=HolidaySale",
+  "action_title": "Unveil the Surprise Now→"
 } 
