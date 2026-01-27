@@ -1,9 +1,9 @@
 {
-  "key": "Holiday_Sale",
-  "start_date": "2025-12-18 9:00:00 EST",
-  "end_date": "2025-12-31 12:00:00 EST",
-  "title": "Holiday Surprise Sale: Get WP ERP Pro with a Surprising Discount",
-  "content": "After the Successful BFCM period, we have come up with another surprise for you. If you've missed the BFCM deal, this is for you. It's a very limited time offer.",
-  "action_url": "https://wperp.com/pricing/?utm_source=dashboard&utm_medium=banner&utm_campaign=HolidaySale",
-  "action_title": "Unveil the Surprise Now→"
-} 
+  "key": "Flash_Sale_Jan26",
+  "start_date": "2026-01-26 9:00:00 EST",
+  "end_date": "2026-01-31 12:00:00 EST",
+  "title": "Unlock All the Premium Features of WP ERP with 35% Off",
+  "content": "Manage your business with the full power of WP ERP and focus on the goal that you've set for 2026. Start the year with a massive win by grabbing ERP with 35% off.",
+  "action_url": "https://wperp.com/pricing/?utm_source=freedashboard&utm_medium=banner&utm_campaign=JanSale",
+  "action_title": "Get the Deal Now→"
+}
