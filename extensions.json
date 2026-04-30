@@ -41,7 +41,7 @@
     },
     "hrm\/recruitment": {
         "name": "Recruitment",
-        "version": "1.7.2"
+        "version": "1.7.3"
     },
     "hrm\/reimbursement": {
         "name": "Reimbursement",
@@ -73,7 +73,7 @@
     },
     "pro\/hr-frontend": {
         "name": "HR Frontend",
-        "version": "2.2.2"
+        "version": "2.3.0"
     },
     "pro\/hubspot": {
         "name": "HubSpot Contacts Sync",
