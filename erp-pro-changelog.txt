@@ -3,9 +3,9 @@ Contributors: tareq1988, nizamuddinbabu, wedevs
 Donate Link: https://tareq.co/donate
 Tags: business manager, erp, accounting, crm, hr, project manager, small business, SME, contact, contacts, Customer Relationship Management, employee, leave management, hr, human resource management, job, jobs, job listing, lead management, opportunity, schedule, task, lead, holiday, company
 Requires at least: 4.4
-Tested up to: 6.8
+Tested up to: 6.9.4
 Requires PHP: 5.6
-Stable tag: 1.4.3
+Stable tag: 1.5.0
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -139,8 +139,16 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 
 == Changelog ==
 
-
 WP ERP Pro
+
+= v1.5.0 -> April 30, 2026 =
+--------------------------
+- [Improved] Redesigned HR frontend module for better usability and performance.
+- [Refactored] Recruitment module to resolve existing issues and improve stability.
+- [FIXED] - Resolved several deprecated-related issues..
+- [Added] Added multiple recruitment stage email notifications.
+- [Added] Introduced predefined email templates for recruitment workflows.
+
 
 = v1.4.3 -> November 20, 2025 =
 --------------------------
@@ -149,17 +157,18 @@ WP ERP Pro
 
 = v1.4.2 -> November 18, 2025 =
 --------------------------
-- [Fixed] Custom field data not showing in edit mode.
-- [Fixed] Job stage duplicate issue.
-- [Added] LTD plan introduced.
+- [FIXED] Custom field data not showing in edit mode
+- [FIXED]  Job stage duplicate issue
+- [ADDED] LTD plan introduced
 
 = v1.4.1 -> June 30, 2025 =
 --------------------------
 **Extension - Attendance**
-- 🛠️ [Improved] Attendance module style alignment.
+- 🛠️ [Improved] Attendance module style alignemnt.
+
 
 = v1.4.0 -> June 25, 2025 =
---------------------------
+
 #### Compatibility & Stability Updates
 - [Improved] PHP 8.2 support across all ERP modules.
 - [Fixed] Multiple deprecated function and dynamic property assignment warnings.
@@ -194,9 +203,10 @@ WP ERP Pro
 - [Fixed] Deals Changelog issues.
 - [Improved] notes editor design and preview for better usability
 
-= v1.3.7 -> June 02, 2025 =
+= v1.3.7 -> May 29, 2025 =
 --------------------------
-- 🛠️ [FIX] HR frontend dashboard display issue for a better user experience.
+**Extension - HR Frontend**
+- 🛠️ [Fixed] HR frontend dashboard display issue for better user experience.
 
 = v1.3.6 -> Mar 19, 2024 =
 --------------------------
@@ -204,9 +214,9 @@ WP ERP Pro
 - 🛠️ [FIX] Invoice payment through Stripe.
 - 🛠️ [FIX] Grant access to HR Manager to training module.
 - 🛠️ [FIX] Show tooltip message for payment settings of Acc module.
-- 🛠️ [FIX] Fix/issue 170 Deals - Name Edit > if any apostrophe is added - a Slash gets added.
-- 🛠️ [FIX] Refactor for case insensitive duplicate folders name Admin and admin.
-- 🛠️ [FIX] Fix/issue #216 - Interview date is not inserted in DB for ERP format 'd-m-Y'.
+- 🛠️ [FIX] Fix/issue 170 Deals - Name Edit > if any apostrophe is added - a Slash gets added
+- 🛠️ [FIX] Refactor for case insensitive duplicate folders name Admin and admin
+- 🛠️ [FIX] Fix/issue #216 - Interview date is not inserted in DB for ERP format 'd-m-Y'
 
 = v1.3.5 -> Dec 14, 2023 =
 --------------------------
