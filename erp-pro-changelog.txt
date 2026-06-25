@@ -3,9 +3,9 @@ Contributors: tareq1988, nizamuddinbabu, wedevs
 Donate Link: https://tareq.co/donate
 Tags: business manager, erp, accounting, crm, hr, project manager, small business, SME, contact, contacts, Customer Relationship Management, employee, leave management, hr, human resource management, job, jobs, job listing, lead management, opportunity, schedule, task, lead, holiday, company
 Requires at least: 4.4
-Tested up to: 6.9.4
+Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 1.5.0
+Stable tag: 1.6.0
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -140,6 +140,20 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 == Changelog ==
 
 WP ERP Pro
+
+= v1.6.0 -> June 25, 2026 =
+--------------------------
+- [Added] REST API endpoints for recruitment stages with full CRUD, pagination and search support.
+- [Added] REST API endpoint to fetch jobs linked to a recruitment stage.
+- [Added] REST API endpoints for candidate hiring statuses and candidate status update.
+- [Added] Modular recruitment API controllers (Job, Candidate, Interview, Stage).
+- [Added] AI Job Description Writer and AI Talent Pool components in the recruitment module.
+- [Added] Tiered subscription plans (Starter, Growth, Scale) with legacy plan handling.
+- [Improved] CRM Deals mobile UX including competitors layout, feed tabs and defensive safety checks.
+- [Improved] Attendance list table and shifts UI/UX.
+- [FIXED] Phantom "x.x.x.1" plugin update notice.
+- [FIXED] WooCommerce settings not loading on the ERP settings page.
+- [FIXED] subscription_type POST value sanitization.
 
 = v1.5.1 -> May 13, 2026 =
 --------------------------
