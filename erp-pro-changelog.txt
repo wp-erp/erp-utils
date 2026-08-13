@@ -3,9 +3,9 @@ Contributors: tareq1988, nizamuddinbabu, wedevs
 Donate Link: https://tareq.co/donate
 Tags: business manager, erp, accounting, crm, hr, project manager, small business, SME, contact, contacts, Customer Relationship Management, employee, leave management, hr, human resource management, job, jobs, job listing, lead management, opportunity, schedule, task, lead, holiday, company
 Requires at least: 4.4
-Tested up to: 7.0
-Requires PHP: 5.6
-Stable tag: 1.6.0
+Tested up to: 6.9
+Requires PHP: 7.4
+Stable tag: 1.7.0
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -141,6 +141,18 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 
 WP ERP Pro
 
+= v1.7.0 -> August 6, 2026 =
+--------------------------
+- [Added] `is_module_licensed()` helper to centralize license entitlement checks for tier and legacy licenses.
+- [Improved] Reorganized distribution tiers: renamed Custom to Enterprise and restructured Starter, Growth, Scale and Enterprise modules.
+- [Improved] Moved Workflow module into the Starter tier.
+- [Improved] Payroll setup wizard styling: restyled payment-method radios and carried the admin colour scheme onto the wizard body.
+- [FIXED] Enforce licensed user seat limits across wp-admin, REST and WP-CLI contexts.
+- [FIXED] Enforce capability check on the Modules REST controller.
+- [FIXED] Hide "Change Photo" overlay on other employees' profiles.
+- [FIXED] Incorrect subscription type labels.
+- [FIXED] Requests list database warning on unfiltered queries.
+
 = v1.6.0 -> June 25, 2026 =
 --------------------------
 - [Added] REST API endpoints for recruitment stages with full CRUD, pagination and search support.
@@ -159,7 +171,6 @@ WP ERP Pro
 --------------------------
 - [FIXED] - Recruitment Candidate listing issue.
 
-
 = v1.5.0 -> April 30, 2026 =
 --------------------------
 - [Improved] Redesigned HR frontend module for better usability and performance.
@@ -167,6 +178,12 @@ WP ERP Pro
 - [FIXED] - Resolved several deprecated-related issues..
 - [Added] Added multiple recruitment stage email notifications.
 - [Added] Introduced predefined email templates for recruitment workflows.
+
+= v1.4.4 -> January 1, 2026 =
+--------------------------
+- [Added] New AI Talent Pool feature.
+- [Added] Recruitment Management APIs.
+- [Added] ERP navigation to training and questionnaire admin pages.
 
 
 = v1.4.3 -> November 20, 2025 =
