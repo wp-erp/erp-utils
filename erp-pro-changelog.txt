@@ -5,7 +5,7 @@ Tags: business manager, erp, accounting, crm, hr, project manager, small busines
 Requires at least: 4.4
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.7.0
+Stable tag: 1.7.1
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -140,6 +140,13 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 == Changelog ==
 
 WP ERP Pro
+
+= v1.7.1 -> October 23, 2026 =
+--------------------------
+- [FIXED] WooCommerce order sync now voids an order's payment before its invoice, so cancelled, failed and changed orders keep syncing with WP ERP 1.17.11.
+- [FIXED] The Attendance "Settings" menu item was shown to HR Managers, who then got "not allowed to access this page".
+- [FIXED] The leave request form sent the half-day check on every leave type change when half-day leave is off, failing with HTTP 400.
+- [FIXED] Translations could break the localized data on Pro screens.
 
 = v1.7.0 -> August 6, 2026 =
 --------------------------
