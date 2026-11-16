@@ -5,7 +5,7 @@ Tags: business manager, erp, accounting, crm, hr, project manager, small busines
 Requires at least: 4.4
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.7.1
+Stable tag: 2.0.0
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -140,6 +140,47 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 == Changelog ==
 
 WP ERP Pro
+
+= v2.0.0 -> November 16, 2026 =
+--------------------------
+- [Added] A new interface for every Pro HR module, matching the redesigned WP ERP HR admin.
+- [Added] Payroll in the new design: pay calendars, pay runs, pay items, one-off allowances and deductions, bulk pay item updates and payslips.
+- [Added] Attendance in the new design: shifts, shift assignment, attendance records, a manager Overview, reports with CSV export, and an Attendance tab on the employee profile.
+- [Added] Recruitment in the new design: job opening wizard, candidate stage funnel, stage management, interviews, reports, AI CV analysis and AI Talent Pool.
+- [Added] New public job list and job detail pages that follow the site theme and support every question type.
+- [Added] Workflow builder redesigned as a visual canvas with a step picker and inspector.
+- [Added] Custom Field Builder, Document Manager, Asset Management and Training in the new design, with file preview, multi-employee sharing and asset history.
+- [Added] Reimbursement in the new design, with approve, reject and pay actions and a report screen.
+- [Added] Advanced Leave, Resignation and Remote Work in the new design, with self-service requests for employees.
+- [Added] HR Frontend portal rebuilt on the new HR app.
+- [Added] Pro dashboard cards: My Payslips, My Attendance, Attendance Status, recent requests and the recruitment funnel.
+- [Added] WooCommerce High-Performance Order Storage (HPOS) support for WooCommerce Integration and Accounting.
+- [Added] The legacy HR v1 REST API routes now load from WP ERP Pro.
+- [Improved] HR screens and the mobile app are much faster on sites with years of data, including shift lists, payslips, payroll totals and attendance reports.
+- [Improved] Pro features pause with a notice, instead of fatal errors, when WP ERP is older than required.
+- [Improved] File uploads use a drag-and-drop area with a 2 MB size limit.
+- [Improved] The license page is easier to read and no longer changes styles elsewhere in wp-admin.
+- [Improved] Compatibility with PHP 7.4 through 8.5.
+- [FIXED] Payroll left mid-month joiners out of the pay run, used the wrong default period and pay day, and left PF and tax withholding out of the journal.
+- [FIXED] The payroll pay run table was not created on MariaDB, and the Payroll Overview chart failed without the PHP calendar extension.
+- [FIXED] Payslips printed "Untitled Company" with a placeholder address, and emailed payslips had blank lines.
+- [FIXED] Leave working days were taken from the approver's shift instead of the employee's.
+- [FIXED] A future-dated termination removed shift, payroll and self-service access immediately.
+- [FIXED] Attendance: a shift assigned today started the next day, future days counted as absent, and unassigning a shift deleted recorded attendance.
+- [FIXED] The daily cron stopped early after sending an overdue asset email, skipping the other daily jobs.
+- [FIXED] Assets: new assets could not be allotted by default, the Return dialog defaulted to an invalid date, and editing an asset reset allotted items.
+- [FIXED] Reimbursement claims could not be approved, rejected or paid, receipts did not upload, and employees could not see their own requests.
+- [FIXED] Managers could not file resignation, remote work or reimbursement requests, and the employee's own Resignation and Remote Work lists were empty.
+- [FIXED] Recruitment: the job wizard sent candidates to the wrong stage, HR managers could not add a candidate with a CV, and Download All CVs did nothing.
+- [FIXED] Job applications recorded untouched dropdown questions as answered.
+- [FIXED] Employee pickers could not find anyone beyond the first 20 employees.
+- [FIXED] Workflow "less than" rules never matched, and mail subject and body filters were skipped when the action ran.
+- [FIXED] Purchase and sales returns now include only the selected products.
+- [FIXED] Saving screen options on the Payroll and Recruitment pages caused an error on PHP 8.
+- [FIXED] Access control in Reimbursement, Document Manager, Recruitment, Training, Advanced Leave, Resignation and Payroll exports.
+- [FIXED] Input handling and output escaping in Recruitment, Reimbursement, Document Manager and Workflow.
+- [FIXED] Candidate CVs, employee documents and CRM Deals attachments could be reached without permission.
+- [FIXED] The Attendance IP restriction could be bypassed.
 
 = v1.7.1 -> October 23, 2026 =
 --------------------------
