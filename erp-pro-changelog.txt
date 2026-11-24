@@ -3,9 +3,9 @@ Contributors: tareq1988, nizamuddinbabu, wedevs
 Donate Link: https://tareq.co/donate
 Tags: business manager, erp, accounting, crm, hr, project manager, small business, SME, contact, contacts, Customer Relationship Management, employee, leave management, hr, human resource management, job, jobs, job listing, lead management, opportunity, schedule, task, lead, holiday, company
 Requires at least: 4.4
-Tested up to: 6.9
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -140,6 +140,25 @@ No, WP ERP and its add-ons do not support multisite WordPress installation.
 == Changelog ==
 
 WP ERP Pro
+
+= v2.0.1 -> November 23, 2026 =
+--------------------------
+- [FIXED] Security: a logged-out visitor could reach the Advanced Leave forward and approval screens' data when a department had no lead. Researcher: Elaprendiz1927 (via Patchstack)
+- [FIXED] The legacy HR v1 API refused a colleague's directory card that the new API shows, and could return records the directory hides.
+- [FIXED] Hide Pay Rate did not hide payroll amounts on the employee profile, payslips and the Payroll tab.
+- [FIXED] Attendance reports counted a weekend or holiday inside a leave as a leave day, and the single employee report always showed 0 leaves.
+- [FIXED] Attendance reports showed and counted today as Absent before the day had ended.
+- [FIXED] An employee could not open View Log on their own attendance list.
+- [FIXED] The Dropbox employee folder sync reported success even when Dropbox refused the folders.
+- [FIXED] The Payroll tab showed an error for a user with no employee record.
+- [FIXED] The Nationality list in Add Candidate showed raw HTML entities.
+- [FIXED] Payroll, reimbursement and attendance figures ran outside their cards on a phone.
+- [FIXED] HR Frontend: Leave Requests opened on the wrong year, long names ran outside their cards, and emoji were replaced by images loaded from another site.
+- [FIXED] The sales return and purchase return lists gave a database error when the API was called without a page number.
+- [FIXED] The employee attendance report wrote deprecation notices to the log on PHP 8.1 and newer.
+- [FIXED] The CRM Deals overview logged an error in the browser console on every load.
+- [IMPROVED] Form errors in the Pro HR screens are shown under the field instead of in a toast.
+- [IMPROVED] Pending leave is shown in yellow on the HR Frontend calendar, and the org chart names each team.
 
 = v2.0.0 -> November 16, 2026 =
 --------------------------
